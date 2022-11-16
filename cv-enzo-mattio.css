@@ -1,0 +1,101 @@
+body{
+  display: flex;
+  flex-direction: row;
+  font-size: medium;
+  font-family: 'Roboto Mono', monospace;
+  background-color: lightgrey;
+}
+
+
+h1{
+  font-size: xx-large;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+h2{
+  text-align: center;
+
+}
+
+.gr{
+  font-weight: bold;
+}
+
+#info{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+p{
+  font-size: medium;
+  text-align: left;
+  font-weight: 500;
+  
+}
+#left{
+  margin-right: none;
+  padding: 10px;
+  background-color: lightgray;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#right{
+  margin-left: 5px;
+  padding: 10px;
+  background-color: whitesmoke;
+  width: 700px;
+}
+
+
+#pick{
+  box-shadow:5px 5px 5px 1px rgba(0, 0, 0, 0.1);
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+#persinfo{
+  
+  
+  margin: 5px;
+  padding: 15px;
+
+}
+#card{
+  font-weight: bold;
+  font-size: x-large;
+
+}
+#vcard{
+ 
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+
+
+}
+
+.tutu{
+  font-size: large;
+  font-weight: 700;
+}
+
+#left h4{
+  font-size: larger;
+  font-weight: 600;
+  color: rgb(0, 109, 153);
+  text-align: center;
+}
+#right h4{
+  font-size: larger;
+  
+}
